@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:8
 COPY target/*.jar /
 EXPOSE 8080
 ADD target/docker_jenkins.jar docker_jenkins.jar
